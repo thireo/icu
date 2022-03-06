@@ -1,6 +1,6 @@
 # DTUE Irish Coffee Unlimited
 
-# Requirements specification
+## Requirements specification
 * Vægtplade som koppen står på
  - Tom kop på plade, efterfulgt af kaffe påfyldning for vejning og estimering af ledig plads.
  - Kontrollerer også om ingredienser kommer i koppen og melder fejl efter tid. 
