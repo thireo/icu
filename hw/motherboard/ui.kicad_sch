@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Irish Coffee Unlimited - Main")
+    (date "2022-03-16")
+    (rev "1")
+    (company "DTUEliten")
+  )
+
   (lib_symbols
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.254 1.778 0)
@@ -490,9 +497,9 @@
   )
 
   (no_connect (at 118.11 59.69) (uuid 95d4081b-b010-49df-9fc9-34ff41677241))
-  (no_connect (at 118.11 57.15) (uuid 95d4081b-b010-49df-9fc9-34ff41677241))
-  (no_connect (at 118.11 54.61) (uuid 95d4081b-b010-49df-9fc9-34ff41677241))
-  (no_connect (at 118.11 52.07) (uuid 95d4081b-b010-49df-9fc9-34ff41677241))
+  (no_connect (at 118.11 57.15) (uuid 95d4081b-b010-49df-9fc9-34ff41677242))
+  (no_connect (at 118.11 54.61) (uuid 95d4081b-b010-49df-9fc9-34ff41677243))
+  (no_connect (at 118.11 52.07) (uuid 95d4081b-b010-49df-9fc9-34ff41677244))
 
   (wire (pts (xy 109.22 135.763) (xy 109.22 137.16))
     (stroke (width 0) (type default) (color 0 0 0 0))
