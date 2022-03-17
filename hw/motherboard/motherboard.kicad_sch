@@ -1270,7 +1270,7 @@
     (property "Value" "100n" (id 1) (at 140.97 52.0762 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 138.43 50.8 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (id 2) (at 138.43 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 138.43 50.8 0)
@@ -1285,7 +1285,7 @@
     (uuid 41be2c35-f62e-4a90-a9ab-fa28ce7e3911)
     (property "Reference" "J4" (id 0) (at 54.61 62.23 0))
     (property "Value" "Conn_01x10" (id 1) (at 54.61 64.77 0))
-    (property "Footprint" "" (id 2) (at 54.61 78.74 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" (id 2) (at 54.61 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 54.61 78.74 0)
@@ -1313,7 +1313,7 @@
     (property "Value" "Raspberry_Pi_2_3" (id 1) (at 121.3994 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 114.3 95.25 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" (id 2) (at 114.3 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" (id 3) (at 114.3 95.25 0)
@@ -1452,7 +1452,7 @@
     (property "Value" "10u" (id 1) (at 132.08 52.0762 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 129.54 50.8 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (id 2) (at 129.54 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 129.54 50.8 0)
@@ -1686,13 +1686,13 @@
       (reference "#PWR017") (unit 1) (value "+5V") (footprint "")
     )
     (path "/c46587cc-b65e-46ce-8235-45c59931764c"
-      (reference "C1") (unit 1) (value "10u") (footprint "")
+      (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
     (path "/1b2dd15e-1b8c-4d49-9929-b4b4d140e194"
-      (reference "C2") (unit 1) (value "100n") (footprint "")
+      (reference "C2") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
     (path "/7eb79170-3bad-497b-ae6e-2ded53d67852/81291e01-46f2-46ad-8d16-68a7c3146f4a"
-      (reference "C3") (unit 1) (value "100n") (footprint "")
+      (reference "C3") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
     (path "/7eb79170-3bad-497b-ae6e-2ded53d67852/3cc1e65a-efee-4a51-ab74-c1754ba2e382"
       (reference "D1") (unit 1) (value "PWR") (footprint "Diode_SMD:D_1206_3216Metric")
@@ -1701,7 +1701,7 @@
       (reference "D2") (unit 1) (value "STATUS") (footprint "Diode_SMD:D_1206_3216Metric")
     )
     (path "/4cfd9a02-97ef-4af4-a6b8-db9be1a8fda5"
-      (reference "J1") (unit 1) (value "Raspberry_Pi_2_3") (footprint "")
+      (reference "J1") (unit 1) (value "Raspberry_Pi_2_3") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical")
     )
     (path "/e70948cf-44fe-4777-a44b-96651998f90f/77ecd206-df40-493c-9440-929851e72f00"
       (reference "J2") (unit 1) (value "Conn_02x03_Counter_Clockwise") (footprint "")
@@ -1710,28 +1710,28 @@
       (reference "J3") (unit 1) (value "RJ45") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
     )
     (path "/41be2c35-f62e-4a90-a9ab-fa28ce7e3911"
-      (reference "J4") (unit 1) (value "Conn_01x10") (footprint "")
+      (reference "J4") (unit 1) (value "Conn_01x10") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
     )
     (path "/7eb79170-3bad-497b-ae6e-2ded53d67852/36c55ec5-2409-4269-9daa-3c488ac805b2"
-      (reference "R1") (unit 1) (value "100k") (footprint "")
+      (reference "R1") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/7eb79170-3bad-497b-ae6e-2ded53d67852/ffe82716-57c7-4f7c-92ad-13ec2ca9abad"
-      (reference "R2") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R2") (unit 1) (value "100") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/7eb79170-3bad-497b-ae6e-2ded53d67852/7d48e682-5b50-4f81-8422-f5aa19057448"
-      (reference "R3") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R3") (unit 1) (value "100") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/7eb79170-3bad-497b-ae6e-2ded53d67852/62fa3767-ce40-4583-9180-bedf520c474e"
-      (reference "R4") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R4") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/7eb79170-3bad-497b-ae6e-2ded53d67852/be1350a9-1a12-4794-9483-0aeeec81c557"
-      (reference "R5") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R5") (unit 1) (value "220") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/7eb79170-3bad-497b-ae6e-2ded53d67852/46850e60-005a-4a74-8a87-d5e450512b9e"
-      (reference "SW1") (unit 1) (value "SW_Push") (footprint "")
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/7eb79170-3bad-497b-ae6e-2ded53d67852/732dfaad-1e29-458a-ab03-ed04ac562e56"
-      (reference "U1") (unit 1) (value "RC1602A") (footprint "Display:RC1602A")
+      (reference "U1") (unit 1) (value "RC1602A") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical")
     )
   )
 )
